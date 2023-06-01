@@ -1,18 +1,12 @@
-.bg-teste {
+.img-container {
   height: 500px;
   width: 100%;
-  background-image: url(assets/bg.png);
+  background-image: url(../assets/bg.png);
   background-size: cover;
 }
 
 .bg-teste h1 {
   max-width: 50%;
-}
-
-@media (max-width: 580px) {
-  body {
-    overflow-x: hidden;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

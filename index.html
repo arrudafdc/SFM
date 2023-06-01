@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>SFM Advogados</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4">
-    <div class="container">
-      <a class="navbar-brand text-white fw-bold" href="#">SFM</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto fw-regular">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Atuação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Contato</a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-4">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#"><img src="./assets/logo.svg" alt="" height="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto fw-regular">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#atuacao">Atuação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
+  </header>
   <main class="mb-5">
-    <div class="bg-teste d-flex align-items-center justify-content-center flex-column">
+    <div class="img-container d-flex align-items-center justify-content-center flex-column">
       <h1 class="text-white text-center fw-bold">Advocacia Especializada em Direito Penal, Civil e Eleitoral.</h1>
       <p class="text-white fw-light">R. José Gonzaga de Almeida, Maceió - AL</p>
     </div>
   </main>
-
-  <section class="container py-5">
-    <div class="row gx-5 d-flex align-items-center mb-5">
+  <section id="sobre" class="container py-5">
+    <div class="row gx-md-5 d-flex align-items-center mb-5">
       <div class="col-lg-6">
         <h2 class="text-warning mb-4">SFM Advogados Associados</h2>
         <p>
-          O escritório Galvão & Silva Advocacia está há mais de nove anos atuando com diversos serviços jurídicos,
+          O escritório de advocacia Sena, Firmo e Maximiniano está há mais de nove anos atuando com diversos serviços jurídicos,
           dispondo de expertise em mais de 15 áreas do direito. Com uma equipe devidamente especializada,
           trabalhamos incessantemente para proteger o seu direito.
         </p>
@@ -68,8 +68,7 @@
       </div>
     </div>
   </section>
-
-  <section class="bg-primary text-white py-5 mb-5">
+  <section id="atuacao" class="bg-primary text-white py-5 mb-5">
     <div class="container">
       <div class="row py-5">
         <h2 class="mb-5 text-center">Áreas de Atuação</h2>
@@ -85,31 +84,30 @@
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0 text-white">
           <div class="bg-secondary py-4 px-3">
-            <img src="./assets/balanced.svg" alt="" class="mb-2">
-            <h3>Direito Civil</h3>
+            <img src="./assets/penal.svg" alt="" class="mb-2">
+            <h3>Direito Penal</h3>
             <p>
-              Os Direitos de um Trabalhador corretamente assessorados,
-              permitem que você possa saber e reconhecer tudo o que está garantido na Lei
+              O direito penal ou direito criminal é a disciplina de direito público que
+              regula o exercício do poder punitivo do Estado
             </p>
           </div>
         </div>
         <div class="col-lg-4 text-white">
           <div class="bg-secondary py-4 px-3">
-            <img src="./assets/balanced.svg" alt="" class="mb-2">
-            <h3>Direito Civil</h3>
+            <img src="./assets/eleitoral.svg" alt="" class="mb-2">
+            <h3>Direito Eleitoral</h3>
             <p>
-              Os Direitos de um Trabalhador corretamente assessorados,
-              permitem que você possa saber e reconhecer tudo o que está garantido na Lei
+              O Direito Eleitoral é o ramo do Direito destinado ao
+              processo de escolha de representantes para a ocupação de cargos eletivos
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="container py-5">
+  <section id="contato" class="container py-5">
     <h2 class="mb-4">Entre em contato</h2>
-    <div class="row gx-5">
+    <div class="row gx-md-5">
       <div class="col-lg-6">
         <form action="" class="mb-4 mb-lg-0">
           <div class="mb-3">
@@ -124,8 +122,7 @@
             <label  class="mb-2" for="floatingTextarea2">Mensagem</label>
             <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
           </div>
-          
-          <button type="submit" class="btn btn-warning text-white">Submit</button>
+          <button type="submit" class="btn btn-warning text-white">Enviar</button>
         </form>
       </div>
       <div class="col-lg-6">
@@ -136,12 +133,11 @@
           <li class="mb-1">sfm@contato.com</li>
           <li class="mb-1">(82) 99999-9999</li>
           <li class="mb-1">De Seg. à Sex das 9h às 16h</li>
-          <li><a href="#">Instagram</a></li>
+          <li><a href="https://www.instagram.com/sfm.advogados/" target="_blank">Instagram</a></li>
         </ul>
       </div>
     </div>
   </section>
-
   <div class="pt-5">
     <footer class="bg-primary py-3">
       <div class="container">
@@ -149,9 +145,7 @@
       </div>
     </footer>
   </div>
-
-
-  <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
-  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
