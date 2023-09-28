@@ -1,8 +1,10 @@
 # SFM
 
+Veja o projeto aqui: https://arrudafdc.github.io/SFM/
+
 ## Sobre o projeto
 
-Landing page desenvolvido para um escritório de advocacia utilizando Html, Css e Bootstrap.
+Site desenvolvido para um escritório de advocacia utilizando Html, Css e Bootstrap.
 
 ## Layout mobile
 ![Mobile 1](https://arrudafdc.github.io/portfolio/assets/img/sfm/sfm-mobile.jpg)
